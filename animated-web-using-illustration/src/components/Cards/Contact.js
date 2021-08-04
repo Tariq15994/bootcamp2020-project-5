@@ -9,7 +9,7 @@ import Card1 from '../../../images/cards/card1.svg';
 // import useWebAnimations from "@wellyshen/use-web-animations";
 import '../Cards/card.css';
 
-// function 
+
 export default function Card(){
     return(
     <div className='cards-container'>
@@ -27,7 +27,7 @@ export default function Card(){
             <p className='card-para'>Chiefly US. : a store that sells food and household supplies : supermarket.</p>
             </div>
         </div>
-        <div className='card'>
+        <div className='card' onClick={()=>{<style/>}}>
             <img className='card-img' src={Card1} alt='card not found '  />
             <div className='desc'>
             <h1 className='h1'>Grocerry</h1>

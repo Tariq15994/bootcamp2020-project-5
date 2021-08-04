@@ -1,0 +1,35 @@
+.section2{
+  
+    /* height: 100%; */
+    width: 100%;
+    margin-top: 750px;
+    
+    display: inline-block;
+  }
+  .section2-para{
+    
+    color: rgba(84, 85, 6, 0.993);
+    width: 40%;
+    position:absolute;
+    padding-top: 130px;
+    line-height: 31px;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    /* color: white; */
+    /* padding-left: 850px; */
+    padding-left: 100px;
+  }
+  .section2-img{
+    padding-left: 700px;
+    padding-top:  0px;
+    
+  }
+  .section2-h1{
+    font-size: 45px;
+    font-style: italic;
+    margin-top: 80px;
+    margin-left: 220px;
+    position: absolute;
+    color: rgba(84, 85, 6, 0.993);
+  }
