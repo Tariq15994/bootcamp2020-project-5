@@ -1,54 +1,51 @@
 img{
     position: absolute;
     padding-top: 50px;
-    background-size: cover;
-    
+    background-size: cover;   
 }
-.bg{
-  
+.bg{ 
+    margin-top: 30px;
     position: absolute;
     background-color: rgba(246, 232, 247, 0.226);
-    /* width: 100%; */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* color: rgba(241, 207, 9, 0.993); */
-  
-  }
-  .wellcome-screen{
-    /* color: white; */
-    /* border: 5px solid black; */
+}
+.wellcome-screen{
     height: 600px;
     width: 550px;
     margin-left: 770px;
     align-items: center;
     justify-content: center;
     padding-top: 100px;
-    
-  
   }
-  .wellcome-h1{
+.wellcome-h1{
     color: rgba(84, 85, 6, 0.993);
     font-size: 45px;
     font-style: italic;
     margin-top: 900px 0px 0px 0px;
   
   }
-  .para{
-    /* color: rgba(231, 195, 14, 0.993); */
+.para{
     color: rgba(84, 85, 6, 0.993);
-    /* margin-top: 300px; */
     width: 700px;
     line-height: 31px;
-    
-    
-    
     font-family:Georgia, 'Times New Roman', Times, serif ;
     line-height: 31px;
     font-size: 23px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
   }
-
+  button{
+    border-style: block solid ;
+    font-size: 38px;
+    color: black;
+    color: rgba(84, 85, 6, 0.993);
+    border: 5px solid rgba(84, 85, 6, 0.993);;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 35px 35px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+  }
+ 
 
 
 

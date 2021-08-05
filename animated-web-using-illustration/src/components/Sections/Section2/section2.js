@@ -1,34 +1,9 @@
-import React, { useEffect } from 'react';
-import useWebAnimations from "@wellyshen/use-web-animations";
+import React from 'react';
 import bg from '../../../images/bg2.svg';
 import './section2.css';
-export default function Section3() {
-    const CryptoSection = useWebAnimations({
-        keyframes: {
-          transform: "translate(15px,0px)",
-        
-        },
-        animationOptions: {
-          duration: 1500, // Run for 1000ms
-          iterations: 4, // Repeat once
-          direction: "alternate", // Run the animation forwards and then backwards
-          easing: "ease-in-out", // Use a fancy timing function
-        },
-      })
-      function scrollFor() {
-        CryptoSection.getAnimation().play();
-      }
-      useEffect(() => {
-        function watchScroll() {
-          document.addEventListener("scroll", scrollFor);
-        }
-        watchScroll();
-        return () => {
-          window.removeEventListener("scroll", scrollFor);
-        };
-      });
+
+export default function Section2() {    
     return (
-        
             <div className='section2' >
                     <h1 className='section2-h1'>Point Of Sale</h1>
                     <p className='section2-para'>
@@ -46,7 +21,7 @@ export default function Section3() {
 
 
                      </p>
-                    <img className='section2-img' ref={CryptoSection.ref} src={bg} alt='not' height='650' width='800'></img>
+                    <img className='section2-img' src={bg} alt='not' height='650' width='800'></img>
                 </div>
 
         

@@ -1,6 +1,6 @@
 import React from 'react';
 import bg1 from '../../../images/bg1.svg';
-import './section1.css';
+import './section1';
 
 export default function Section1() {
   

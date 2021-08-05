@@ -1,26 +1,9 @@
-.navbar{
-  
-    color: white;
-    /* display: block; */
-    align-items:center;
-    justify-content: flex-end;
-    /* background-color: rgba(246, 232, 247, 0.623); */
-    /* height: 200px; */
-    /* width: 200px; */
-    /* display: inline-block; */
-    /* text-decoration: none; */
-  
-  
-  }
   .navbar a{
     color: rgba(84, 85, 6, 0.993);
     padding: 10px 0px 10px 0px;
-    margin: 0px 30px 0px 100px;
+    margin: 8px 30px 0px 100px;
     display: inline-block;
     font-weight: bold;
-    
-    
-  
     text-decoration: none;
     
   }
